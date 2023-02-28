@@ -1,0 +1,49 @@
+Account
+insert into account values ('101', 'thienkhiem123', '1234567', 'khachhang', 500.000đ)
+insert into account values ('102', 'phuoctai456', '87654321', 'admin', 300.000đ)
+
+Binh Luan
+insert into binhluan values ('1', '1', '10', '101')
+insert into binhluan values ('1', '1', '10', '102')
+
+Chi tiet thanh toan 
+insert into chitietthanhtoan values ('10', '1', '101', '1')
+insert into chitietthanhtoan values ('11', '2', '102', '2')
+
+Phim
+insert into phim values ('1111', 'The Conjuring', 'theconjuring', 'Phim về một gia đình gặp rắc rối khi chuyển nhà', 'theconjuring', '2016', '1', '1', '20.000đ)(kinh dị)
+insert into phim values ('1112', 'Fast n Furious 7', 'fastnfurious', 'Phim về cuộc đua xe của Dom', 'fastnfurious', '2015', '2', '1', '50.000đ)(hành động)
+insert into phim values ('1113', 'She-Hulk', 'shehulk', 'Phim  xoay quanh câu chuyện về cô nàng Jennifer Walters ở độ tuổi 30', 'shehulk', '2022', '3', '1', '40.000đ)(hài hước)
+insert into phim values ('1114', 'Blue rock', 'bluerock', 'Phim xoay quanh câu chuyện về chân sút tài năng Yoichi Isagi', 'bluerock', '2022', '4', '2', '0đ)(hoạt hình Anime)
+insert into phim values ('1115', 'Thor 4', 'thor4', 'Phim xoay quanh cô nàng tình cũ của anh chàng Thor là Jane Foster', 'thor4', '2022', '5', '1', '50.000đ)(Phiêu lưu)
+insert into phim values ('1116', 'Băng đường nhất hạ', 'bangduongnhatha', 'Phim xoay quanh câu chuyện về nữ sinh Lại Đối Đối', 'bangduongnhatha', '2022', '6', '4', '0đ)(Tình cảm)
+insert into phim values ('1117', 'The Ring', 'thering', 'Phim xoay quanh Rachel Keller là một nhà báo điều tra, người không tin tưởng nhiều vào những gì cô coi là một loại truyền thuyết đô thị', 'thering', '2002', '1', '1', '20.000đ)(Kinh dị)
+
+Tập phim
+insert into tapphim values ('1', 'The Conjuring', '1', '1111')
+insert into tapphim values ('1', 'Fast n Furious 7', '2', '1112')
+insert into tapphim values ('1', 'She-Hulk', '3', '1113')
+insert into tapphim values ('2', 'Blue rock', '4', '1114')
+insert into tapphim values ('1', 'Thor 4', '5', '1115')
+insert into tapphim values ('4', 'Băng đường nhất hạ', '6', '1116')
+insert into tapphim values ('1', 'The Ring', '7', '1117')
+
+Thanh toán 
+insert into thanhtoan values ('111', '08/03/2022', '20.000đ', 'Đã thanh toán')
+insert into thanhtoan values ('112', '20/10/2022', '50.000đ', 'Chưa thanh toán')
+insert into thanhtoan values ('113', '13/08/2022', '20.000đ', 'Đang xử lý')
+insert into thanhtoan values ('114', '15/02/2022', '20.000đ', 'Đang xử lý')
+insert into thanhtoan values ('115', '12/03/2022', '40.000đ', 'Đã thanh toán')
+
+Thể loại 
+insert into theloai values ('1', 'Kinh dị')
+insert into theloai values ('2', 'Hành động')
+insert into theloai values ('3', 'Hài hước')
+insert into theloai values ('4', 'Hoạt hình Anime')
+insert into theloai values ('5', 'Phiêu lưu')
+insert into theloai values ('6', 'Tình cảm')
+
+Tin tức 
+insert into tintuc values ('1', 'Thông báo phim mới cập nhật', 'Phim mới cập nhật')
+insert into tintuc values ('2', 'Thông báo một số phim bị lỗi đang khắc phục', 'Sửa lỗi phim')
+insert into tintuc values ('3', 'Thống kê số phim được xem nhiều nhất trong tháng ', 'Danh sách phim được xem nhiều nhất')

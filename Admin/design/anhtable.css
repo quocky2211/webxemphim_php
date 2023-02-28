@@ -1,0 +1,47 @@
+/*Cột ảnh*/
+.book-col-2 {
+    margin: 0;
+    padding: 0;
+    
+    max-height: 110px;
+}
+.book-col-2 img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+}
+/*Video*/
+.trailer {
+    max-height: 300px;
+}
+.trailer video{
+    /*max-width: 100px;*/
+    max-height: 300px;
+    width: 100%;
+}
+/*Tên Phim */
+.Tenphim {
+    color: red;
+    font-size: 30px;
+}
+/*Thông tin con*/
+.label-title {
+    font-weight: bold;
+    font-size: 14pt;
+    margin-right: 5px;
+}
+/*Anh khuyen Mai*/
+.anh-khuyenmai{
+    max-height: 200px;
+}
+.anh-khuyenmai img {
+    max-width: 200px;
+    max-height: 150px;
+    width: 100%;
+}
+.tintuc-col img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+}
+
